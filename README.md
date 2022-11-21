@@ -19,7 +19,7 @@ Detecing facial keypoints is a very challenging problem.  Facial features vary g
 
 ## 2.Dataset Description
 
-The data set for this work was graciously provided to [kaggle]('kaggle.com') by [Dr. Yoshua Bengio]('https://yoshuabengio.org/') of the University of Montreal and is in kaggle.com at disposal. 
+The data set for this work was graciously provided to [kaggle]('kaggle.com') by [Dr. Yoshua Bengio]('yoshuabengio.org') of the University of Montreal and is in kaggle.com at disposal. 
 
 There is a benchmark data set.
 
