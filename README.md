@@ -1,6 +1,9 @@
 # Can I detect and predict facial keypoints?
+(or how to deal with images)
 
 This is my project work for couse "Machine Lerning" at SoftUni during the September-November2022.
+
+Here I try to demonstrate my skilles and knowledge I've lerned during the course which is analog to an upper level compared to a beginner.
 
 ## 1.General Description
 
@@ -16,7 +19,7 @@ Detecing facial keypoints is a very challenging problem.  Facial features vary g
 
 ## 2.Dataset Description
 
-The data set for this work was graciously provided to [kaggle]('kaggle.com') by [Dr. Yoshua Bengio]('https://yoshuabengio.org/') of the University of Montreal and is in kaggle.com at disposal. 
+The data set for this work was graciously provided to [kaggle]('kaggle.com') by [Dr. Yoshua Bengio]('yoshuabengio.org') of the University of Montreal and is in kaggle.com at disposal. 
 
 There is a benchmark data set.
 
@@ -53,9 +56,16 @@ The input image is given in the last field of the data files, and consists of a 
 **submissionFileFormat.csv:** list of 27124 keypoints to predict. Each row contains a RowId, ImageId, FeatureName, Location. FeatureName are "left_eye_center_x," "right_eyebrow_outer_end_y," etc. Location is what you need to predict.
 
 ## 3.Contents
-#TODO
+
+### 3.1. Hypothesis 
+### 3.2. Data processing
+### 3.3. Modeling
+### 3.4. Conclusion
+
 ## 4.References
 
  4.1. kaggle datesets: 'https://www.kaggle.com/competitions/facial-keypoints-detection'
 
- 4.2. dataset autor is [Dr. Yoshua Bengio]('https://yoshuabengio.org/').
+ 4.2. dataset autor is Dr. Yoshua Bengio:'https://yoshuabengio.org'
+ 
+ 4.3. https://matplotlib.org/
