@@ -1,4 +1,5 @@
-# my_project_facial_keypoints_detection or How to detect and predict facial keypoints?
+# Can I detect and predict facial keypoints?
+(or how to deal with images)
 
 This is my project work for couse "Machine Lerning" at SoftUni during the September-November2022.
 
@@ -66,3 +67,5 @@ The input image is given in the last field of the data files, and consists of a 
  4.1. kaggle datesets: 'https://www.kaggle.com/competitions/facial-keypoints-detection'
 
  4.2. dataset autor is [Dr. Yoshua Bengio]('https://yoshuabengio.org/').
+ 
+ 4.3. https://matplotlib.org/
