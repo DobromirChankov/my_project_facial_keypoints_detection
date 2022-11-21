@@ -66,6 +66,6 @@ The input image is given in the last field of the data files, and consists of a 
 
  4.1. kaggle datesets: 'https://www.kaggle.com/competitions/facial-keypoints-detection'
 
- 4.2. dataset autor is [Dr. Yoshua Bengio]('https://yoshuabengio.org').
+ 4.2. dataset autor is Dr. Yoshua Bengio:'https://yoshuabengio.org'
  
  4.3. https://matplotlib.org/
