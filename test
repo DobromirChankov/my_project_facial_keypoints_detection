@@ -1,0 +1,16 @@
+for row in range(df.shape[0]):
+    kernel[int(df.at[row, "left_eye_center_y"]),  int(df.at[row, "left_eye_center_x"])] = 1
+    kernel[int(df.at[row, "right_eye_center_y"]), int(df.at[row, "right_eye_center_x"])] = 1
+    kernel[int(df.at[row, "left_eye_inner_corner_y"]), int(df.at[row, "left_eye_inner_corner_x"])] = 1
+    kernel[int(df.at[row, "left_eye_outer_corner_y"]), int(df.at[row, "left_eye_outer_corner_x"])] = 1
+    kernel[int(df.at[row, "right_eye_inner_corner_y"]), int(df.at[row, "right_eye_inner_corner_x"])] = 1
+    kernel[int(df.at[row, "right_eye_outer_corner_y"]), int(df.at[row, "right_eye_outer_corner_x"])] = 1
+    kernel[int(df.at[row, "left_eyebrow_inner_end_y"]), int(df.at[row, "left_eyebrow_inner_end_x"])] = 1
+    kernel[int(df.at[row, "left_eyebrow_outer_end_y"]), int(df.at[row, "left_eyebrow_outer_end_x"])] = 1
+    kernel[int(df.at[row, "right_eyebrow_inner_end_y"]), int(df.at[row, "right_eyebrow_inner_end_x"])] = 1
+    kernel[int(df.at[row, "right_eyebrow_outer_end_y"]), int(df.at[row, "right_eyebrow_outer_end_x"])] = 1
+    kernel[int(df.at[row, "nose_tip_y"]), int(df.at[row, "nose_tip_x"])] = 1
+    kernel[int(df.at[row, "mouth_left_corner_y"]), int(df.at[row, "mouth_left_corner_x"])] = 1
+    kernel[int(df.at[row, "mouth_right_corner_y"]), int(df.at[row, "mouth_right_corner_x"])] = 1
+    kernel[int(df.at[row, "mouth_center_top_lip_y"]), int(df.at[row, "mouth_center_top_lip_x"])] = 1
+    kernel[int(df.at[row, "mouth_center_bottom_lip_y"]), int(df.at[row, "mouth_center_bottom_lip_x"])] = 1
